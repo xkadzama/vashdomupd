@@ -305,6 +305,7 @@ nav {
 	/*margin-top: 31px;*/
 	/*background-color: #FAFAFA;*/
 	height: 1320px;
+	padding-top: 25px;
 }
 
 
@@ -501,6 +502,12 @@ nav {
 }
 
 
+/*
+.attention_block, .like_block, .green_block {
+	margin-left: 100px;
+}*/
+
+
 
 /*WRAP4*/
 
@@ -508,11 +515,164 @@ nav {
 .for_bg4 {
 	margin-top: 31px;
 	background-color: #FAFAFA;
-	height: 765px;
+	height: 745px;
 }
 
 
 .wrap4 {
 	margin: auto;
 	width: 1200px;
+	padding-top: 60px;
+}
+
+
+
+.wp4_main_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: #474747;
+}
+
+
+.wp4_green_chat_block {
+	background-image: url(images/conditions/green_chat.png);
+	width: 547px;
+	height: 182px;
+	margin-top: 8px;
+}
+
+
+.green_chat_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: #1A1A1A;
+	padding-top: 63px;
+	padding-left: 56px;
+	width: 472px;
+}
+
+
+
+.wp4_attention_icon {
+	background-image: url(images/conditions/att_icon.png);
+	width: 80px;
+	height: 81px;
+}
+
+
+.wp4_attention_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 152.9%;
+	/* or 33px */
+	width: 845px;
+	margin-left: 33px;
+	/*margin-top: 7px;*/
+	color: #000000;
+}
+
+
+.wp4_attention_block {
+	display: flex;
+	width: 1055px;
+	height: 151px;
+	background-color: #F8F8F8;
+	border-radius: 75.5px;
+	padding-top: 32px;
+	padding-left: 43px;
+	margin-top: 49px;
+}
+
+
+
+
+.wp4_blue_block {
+	width: 1085px;
+	height: 133px;
+	background: #93B4E6;
+	border-radius: 90px;
+	padding-top: 19px;
+	margin-top: 51px;
+}
+
+
+.wp4_blue_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 31px;
+	text-align: center;
+	color: #FFFFFF;
+	width: 952px;
+	margin-left: 66px;
+}
+
+
+
+/*WRAP5*/
+
+
+.for_bg5 {
+	/*background-color: #FAFAFA;*/
+	height: 824px;
+}
+
+
+.wrap5 {
+	margin: auto;
+	width: 1200px;
+	padding-top: 60px;
+}
+
+
+
+.wp5_main_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	width: 600px;
+	color: #474747;
+}
+
+
+
+
+
+
+.line {
+	width: 4px;
+	height: 66px;
+	background: #6DCBFF;
+}
+
+
+
+.line_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+	width: 974px;
+	margin-left: 18px;
+}
+
+
+
+.line_block_1 {
+	display: flex;
+	margin-top: 64px;
 }
