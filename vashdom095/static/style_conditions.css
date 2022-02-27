@@ -24,7 +24,7 @@ body {
 
 .for_bg1 {
 	background-color: white;
-	height: 63px;
+	height: 90px;
 
 }
 
@@ -54,7 +54,9 @@ body {
 
 }
 
-
+.textlogo > a {
+	color: #323232;
+}
 .domrf_bank {
 	background-image: url(images/domrfbank.svg);
 	height: 59px;
@@ -173,6 +175,39 @@ nav {
 }
 
 
+/*NAVIGATOR*/
+
+
+.navigator {
+	height: 31px;
+	background-color: #145377;
+}
+
+
+.son_nav {
+	width: 982px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding-top: 8px;
+}
+
+
+.son_nav > a {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+
+	color: #FFFFFF;
+}
+
+.son_nav > a:hover {
+	color: #66DAFF;
+}
+
+
 
 /*WRAP2*/
 
@@ -180,7 +215,7 @@ nav {
 
 
 .for_bg2 {
-	margin-top: 31px;
+	/*margin-top: 31px;*/
 	background-color: #FAFAFA;
 	height: 555px;
 }
@@ -196,10 +231,11 @@ nav {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 35px;
+	font-size: 25px;
 	line-height: 44px;
 	padding-top: 25px;
 	color: #474747;
+	margin-left: -15px;
 
 }
 

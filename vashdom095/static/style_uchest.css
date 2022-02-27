@@ -55,6 +55,10 @@ body {
 }
 
 
+.textlogo > a {
+	color: #323232;
+}
+
 .domrf_bank {
 	background-image: url(images/domrfbank.svg);
 	height: 59px;
@@ -170,6 +174,39 @@ nav {
 .phone_email {
 	width: 135px;
 	margin: auto;
+}
+
+
+/*NAVIGATOR*/
+
+
+.navigator {
+	height: 31px;
+	background-color: #145377;
+}
+
+
+.son_nav {
+	width: 982px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding-top: 8px;
+}
+
+
+.son_nav > a {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+
+	color: #FFFFFF;
+}
+
+.son_nav > a:hover {
+	color: #66DAFF;
 }
 
 

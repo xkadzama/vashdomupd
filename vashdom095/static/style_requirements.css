@@ -24,7 +24,7 @@ body {
 
 .for_bg1 {
 	background-color: white;
-	height: 63px;
+	height: 90px;
 
 }
 
@@ -52,6 +52,10 @@ body {
 	color: #323232;
 	margin-top: 23px;
 
+}
+
+.textlogo > a {
+	color: #323232;
 }
 
 
@@ -171,14 +175,47 @@ nav {
 	width: 135px;
 	margin: auto;
 }
-/*
+
+
+/*NAVIGATOR*/
+
+
+.navigator {
+	height: 31px;
+	background-color: #145377;
+}
+
+
+.son_nav {
+	width: 982px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding-top: 8px;
+}
+
+
+.son_nav > a {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+
+	color: #FFFFFF;
+}
+
+.son_nav > a:hover {
+	color: #66DAFF;
+}
+
 
 /*WRAP2*/
 
 
 
 .for_bg2 {
-	margin-top: 31px;
+	/*margin-top: 31px;*/
 	background-color: #FAFAFA;
 	height: 716px;
 }
@@ -194,10 +231,11 @@ nav {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 35px;
+	font-size: 25px;
 	line-height: 44px;
-	padding-top: 25px;
+	padding-top: 48px;
 	color: #474747;
+	margin-left: 80px;
 }
 
 

@@ -59,6 +59,9 @@ body {
 
 }
 
+.textlogo > a {
+	color: #323232;
+}
 
 .domrf_bank {
 	background-image: url(images/domrfbank.svg);
@@ -178,6 +181,38 @@ nav {
 }
 
 
+/*NAVIGATOR*/
+
+
+.navigator {
+	height: 31px;
+	background-color: #145377;
+}
+
+
+.son_nav {
+	width: 982px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding-top: 8px;
+}
+
+
+.son_nav > a {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+
+	color: #FFFFFF;
+}
+
+.son_nav > a:hover {
+	color: #66DAFF;
+}
+
 
 /*WRAP2*/
 
@@ -193,7 +228,7 @@ nav {
 .wrap2{
 	margin: auto;
 	width: 1040px;
-	padding-top: 49px;
+	padding-top: 39px;
 }
 
 
@@ -214,7 +249,7 @@ nav {
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 43px;
-	margin-top: 50px;
+	margin-top: 15px;
 	color: #000000;
 }
 
@@ -243,6 +278,7 @@ nav {
 	background: #4E5C64;
 	border-radius: 40px;
 	padding-top: 36px;
+	margin-left: 65px;
 }
 
 
@@ -295,7 +331,7 @@ nav {
 .wrap3{
 	margin: auto;
 	width: 1040px;
-	padding-top: 49px;
+	padding-top: 2px;
 }
 
 
