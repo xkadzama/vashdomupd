@@ -22,7 +22,7 @@ body {
 
 .for_bg1 {
 	background-color: white;
-	height: 120px;
+	height: 90px;
 
 }
 
@@ -172,13 +172,46 @@ nav {
 
 
 
+/*NAVIGATOR*/
+
+
+.navigator {
+	height: 31px;
+	background-color: #145377;
+}
+
+
+.son_nav {
+	width: 982px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding-top: 8px;
+}
+
+
+.son_nav > a {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+
+	color: #FFFFFF;
+}
+
+.son_nav > a:hover {
+	color: #66DAFF;
+}
+
+
 /*WRAP2*/
 
 
 .for_bg2 {
 	background: url(images/mainimage1.jpeg) 100% 100% no-repeat;
 	background-size: cover;
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 	height: 472px;
 }
 
@@ -278,6 +311,67 @@ nav {
 	color: #FFFFFF;
 	margin-top: 34px;
 }
+
+
+
+
+
+
+/*NEWBLOCK*/
+
+
+.new_block {
+	height: 195px;
+	/*background-color: #FAFAFC;*/
+	margin-top: 82px;
+}
+
+
+.nw_wrap {
+	margin: auto;
+	width: 872px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 99px;
+
+}
+
+
+.icon_nw {
+	background-image: url(images/icon_nw.png);
+	height: 155px;
+	width: 155px;
+	margin-top: 27px;
+
+}
+
+
+.mini_cube {
+	width: 10px;
+	height: 10px;
+	background: #446C88;
+	margin-top: 8px;
+	margin-left: 36px;
+}
+
+.text_nw {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 188.9%;
+	/* or 26px */
+	width: 656px;
+
+	color: #555555;
+}
+
+.text_nw > a {
+	color: #555555;
+	font-weight: 600;
+}
+
+/*WRAP3*/
 
 
 

@@ -24,7 +24,7 @@ body {
 
 .for_bg1 {
 	background-color: white;
-	height: 120px;
+	height: 63px;
 
 }
 
@@ -379,6 +379,11 @@ nav {
 	margin-left: 16px;
 	width: 833px;
 	color: #FFFFFF;
+}
+
+
+.blue_block_text_3 > a {
+	color: #1A60B2;
 }
 
 

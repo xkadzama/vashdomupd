@@ -24,7 +24,7 @@ body {
 
 .for_bg1 {
 	background-color: white;
-	height: 120px;
+	height: 63px;
 
 }
 
@@ -312,6 +312,11 @@ nav {
 	width: 760px;
 }
 
+.text2 > a {
+	color: #313131;
+	font-weight: 600;
+	text-decoration: none;
+}
 
 .wp3_icon1 {
 	background-image: url(images/about_us_f/wp3_icon1.svg);
